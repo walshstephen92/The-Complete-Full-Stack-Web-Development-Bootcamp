@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+  </head>
+
+  <body>
+    <h1>Stephen Walsh</h1>
+
+    <img src="https://media.licdn.com/dms/image/v2/C5603AQHt9pDM7CpP3w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1623375478521?e=1777507200&v=beta&t=wNHq9auD3V9taVtStWpGoyVbnHW2MU9HUo7vQzKTeO8" alt="Stephen's Profile Picture" width="200">
+    
+    <h2>Summary</h2>
+    <p>Experienced and certified Senior Systems Engineer at Perspectum. Based in Oxford, UK.</p>
+
+    <hr>
+
+    <h2>Experience</h2>
+    <ul>
+      <li>
+        <h3>Systems Engineer - Perspectum</h3>
+        <p>
+          October 2024 - <i>Present</i> <br>
+          Oxford, UK
+        </p>
+        <ul>
+          <li>
+            Designed and implemented a data backup solution, using AWS Backup, to ensure business-critical data is
+            securely backed up with redundancy across multiple geographic locations (AWS regions) and logical boundaries
+            (AWS accounts). This was a necessary requirement for the business to win multi-million dollar contracts with
+            large pharmaceutical clients.
+          </li>
+          <li>
+            Designed and implemented an AWS region failover solution, for the business-critical application, to ensure
+            high availability and business continuity in the event of an AWS region failure. This enabled the business to
+            avoid prolonged downtimes that can impact SLA commitments, cause reputational damage and ultimately lead to
+            loss of valuable business.
+          </li>
+          <li>
+            Led a cost optimization initiative that resulted in a 40% reduction in AWS costs by...
+            <ul>
+              <li>
+                Implementing S3 lifecycle configuration, to appropriately transition objects to lower-cost storage
+                classes, on our costly S3 buckets.
+              </li>
+              <li>
+                Analysing compute spend and, for that which was going to continue being necessary for a predicatable
+                period of time, purchasing a Compute Savings Plan to achieve significant cost savings compared to
+                on-demand pricing.
+              </li>
+              <li>
+                Designing and implementing a tag-based ECR lifecycle policy to automatically delete obsolete images.
+              </li>
+              <li>
+                Analysing and implementing recommendations from AWS Cost Optimisation Hub, including rightsizing
+                underutilized resources and deleting unused resources.
+              </li>
+              <li>
+                Investigating high NAT Gateway costs and reducing them by...
+                <ul>
+                  <li>
+                    Creating Gateway Endpoints for S3 and DynamoDB, by default, in all VPCs to ensure that traffic to
+                    these services does not traverse the NAT Gateway.
+                  </li>
+                  <li>
+                    Making the creation of NAT Gateways in VPCs optional, rather than creating them by default in all
+                    VPCs. Deleting existing NAT Gateways in VPCs that do not require them.
+                  </li>
+                  <li>
+                    Where cost-advantageous, creating Interface Endpoints for other AWS services, such as CloudWatch and
+                    ECR.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h3>AWS Cloud Engineer - Sportsbet</h3>
+        <p>
+          September 2020 - September 2024 <br>
+          Melbourne, Australia
+        </p>
+      </li>
+      <li>
+        <h3>AWS Cloud Engineer - BetEasy</h3>
+        <p>
+          February 2019 - September 2020 <br>
+          Melbourne, Australia
+        </p>
+      </li>
+      <li>
+        <h3>DevOps Engineer - Achiga</h3>
+        <p>
+          November 2016 - December 2018 <br>
+          Toronto, Canada
+        </p>
+      </li>
+      <li>
+        <h3>DevOps Engineer - Brandtone</h3>
+        <p>
+          September 2014 - November 2016 <br>
+          Dublin, Ireland
+        </p>
+      </li>
+    </ul>
+
+    <hr>
+
+    <h2>Certifications</h2>
+    <ul>
+      <li><a href="https://www.credly.com/badges/5d1e6748-3116-4f18-b4d1-ff07bc1c21e5/public_url">HashiCorp Certified Terraform Associate</a></li>
+      <li><a href="https://www.credly.com/badges/d372d434-6464-4f77-a039-1ea673cb941e/public_url">AWS Certified Solutions Architect - Professional</a></li>
+      <li><a href="https://www.credly.com/badges/6d8400c9-b377-430e-a880-e5c33186e631/public_url">AWS Certified DevOps Engineer - Professional</a></li>
+      <li><a href="https://www.credly.com/badges/8b90cc4f-255e-4fb5-8a9b-55ff7e0b3aed/public_url">AWS Certified Security - Specialty</a></li>
+      <li><a href="https://www.credly.com/badges/e99c8985-e168-4ec1-9967-4db2ec6f8f8d/public_url">AWS Certified Database - Specialty</a></li>
+      <li><a href="https://www.credly.com/badges/bc8a6059-d1a2-453b-81ca-9ad10d6783df/public_url">AWS Certified Solutions Architect - Associate</a></li>
+      <li><a href="https://www.credly.com/badges/3ecb0106-e5f6-4242-8588-c1662ea35cce/public_url">AWS Certified SysOps Administrator - Associate</a></li>
+      <li><a href="https://www.credly.com/badges/93c99243-2e2b-4924-9979-84daa9e63067/public_url">AWS Certified Developer - Associate</a></li>
+      <li><a href="https://www.credly.com/badges/b2f31ba1-3048-4fe1-baf9-e52bd0fb9da2/public_url">AWS Certified Cloud Practitioner - Foundational</a></li>
+    </ul>
+
+    <hr>
+
+    <h2>Education</h2>
+    <p>BSc, Computer Science and Software Engineering - Maynooth University (2009 - 2014)</p>
+
+  </body>
+
+</html>
