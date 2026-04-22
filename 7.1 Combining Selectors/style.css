@@ -1,0 +1,26 @@
+/* Write your code here: */
+
+/* Grouping - apply to any elements with a selector in the list */
+h1, h2 {
+  color: blueviolet;
+}
+
+/* Parent > Child - child can only be one level within parent */
+.box > p {
+  color: firebrick;
+}
+
+/* Ancestor Descendant - descendant can be N levels within ancestor */
+.box li {
+  color: blue;
+}
+
+/* Chaining - apply to any elements with ALL selectors in the list */
+li.done {
+  color: seagreen;
+}
+
+/* Combining any of the above */
+ul > p.done {
+  font-size: 0.5rem;
+}
